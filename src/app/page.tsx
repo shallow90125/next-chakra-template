@@ -1,6 +1,4 @@
-"use client";
-
-import { Button, Grid } from "@chakra-ui/react";
+import { Button, Grid } from "@/components/chakra";
 
 export default function Home() {
   return (
