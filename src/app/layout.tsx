@@ -7,7 +7,7 @@ import {
   Flex,
   Grid,
   GridItem,
-} from "@/components/chakra";
+} from "@/components/chakra-ui/react";
 import Provider from "@/components/Provider";
 import { Noto_Sans_JP } from "next/font/google";
 

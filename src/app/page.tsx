@@ -1,4 +1,4 @@
-import { Button, Grid } from "@/components/chakra";
+import { Button, Grid } from "@/components/chakra-ui/react";
 
 export default function Home() {
   return (
