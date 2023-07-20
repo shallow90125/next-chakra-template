@@ -4,7 +4,16 @@ import { CacheProvider } from "@chakra-ui/next-js";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
 export default function Provider({ children }: { children: React.ReactNode }) {
-  const theme = extendTheme({});
+  const theme = extendTheme({
+    // styles: {
+    //   global: {
+    //     body: {
+    //       backgroundColor: "white",
+    //       color: "black",
+    //     },
+    //   },
+    // },
+  });
 
   return (
     <CacheProvider>

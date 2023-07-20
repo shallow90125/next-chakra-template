@@ -1,5 +1,4 @@
-"use client";
-
+import Provider from "@/components/Provider";
 import {
   Box,
   Container,
@@ -8,7 +7,6 @@ import {
   Grid,
   GridItem,
 } from "@/components/chakra-ui/react";
-import Provider from "@/components/Provider";
 import { Noto_Sans_JP } from "next/font/google";
 
 const font = Noto_Sans_JP({ subsets: ["latin"] });
